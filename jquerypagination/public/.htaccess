@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+
+# remove index.php
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index\.php [NC]
+RewriteRule ^ /%1 [R=301,L]

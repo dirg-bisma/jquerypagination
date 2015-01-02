@@ -1,0 +1,31 @@
+/* TODO PANEL */
+<-------------------------------- DONE ZONE BELLOW---------------------------------->
+Buat modul BBN
+- modul harus bisa memilah data antara yang sudah dan yang belum di proses. -> done
+Master BBN
+- di buat seperti master OTR -> done
+Transaksi Sementara
+- Kwitansi gabungan dari nilai transaksi -> done
+Modul Penjualan
+- data penjualan tunai status_sia = 0 -> done
+- data penjualan kredit status_sia = 0 -> done
+<-------------------------------- END DONE ZONE ------------------------------------->
+
+
+<------------------------------------ WARNING ZONE BELLOW---------------------------->
+Penjualan Rodamas -> note di samakan dengan penjualan kredit yang lain melalui leasing
+<-------------------------------- END WARNING ZONE ---------------------------------->
+
+
+<------------------------------------- UNDONE ZONE BELLOW---------------------------->
+Jurnal
+- modul piutang jurnal(antara Piutang dan Transaksi)
+
+Penjualan
+- Piutang Standart
+- Piutang Parkir
+
+Penjualan Rodamas -> note di samakan dengan penjualan kredit yang lain melalui leasing
+
+Jurnal Harian
+<---------------------------------- END UNDONE ZONE --------------------------------->
