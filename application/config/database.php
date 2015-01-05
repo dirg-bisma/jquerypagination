@@ -48,17 +48,18 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-/**
-$db['default']['hostname'] = '192.168.0.5';
-$db['default']['database'] = 'rodamas';
-$db['default']['password'] = 'RODA';
- */
-$db['default']['hostname'] = '127.0.0.1';
-$db['default']['password'] = '';
-$db['default']['database'] = 'rodamas-stb';
 
+$db['default']['hostname'] = 'localhost';
+$db['default']['database'] = 'test';
+$db['default']['password'] = '';
+
+/*
+$db['default']['hostname'] = 'sqlite:D:\Lib ZONE\jquerypagination\db\test.sqlite';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
+*/
 $db['default']['username'] = 'root';
-$db['default']['dbdriver'] = 'mysqli';
+$db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
